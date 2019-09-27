@@ -1,0 +1,46 @@
+<!--
+ Created by Moloney on 1/26/2018.
+ Lab 7
+ Dr. Hornick
+ SE-2840
+ Web Application Development
+ This file contains the information that structures the content on the web page
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MoloneydaLab7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- This allows the program to use boostrap and Jquery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- These link all the scripts used in the project to one another-->
+    <link rel="stylesheet" href="./Info.css">
+    <script src="./Info.js"></script>
+    <!-- This causes the info.js to run -->
+    <script>
+        new Info();
+    </script>
+</head>
+<!-- This causes the body to fit the page window -->
+<body class="container-fluid">
+<div>
+    <!-- This creates the navbar and styles it with bootstrap -->
+    <div id="topnav" class="inline">
+        <a id="SystemInfo" href="#" class="w3-bar-item w3-button">System Info</a>
+        <a id="RequestInfo" href="#" class="w3-bar-item w3-button">Request Info</a>
+        <a id="HTTPHeader" href="#" class="w3-bar-item w3-button">HTTP Headers</a>
+        <a id="RequestParam" href="#" class="w3-bar-item w3</div>-button">Request Param</a>
+    </div>
+</div>
+<!-- This causes breaks to form in the program -->
+<br><br>
+<!-- This div contains the data table and error list assoiated with the project -->
+<div class="container-fluid">
+    <table id="tableDump" class="table table-striped"></table>
+    <ul id="errorListDump"></ul>
+</div>
+</body>
+</html>

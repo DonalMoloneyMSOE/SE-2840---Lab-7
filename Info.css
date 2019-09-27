@@ -1,0 +1,63 @@
+/*
+Donal Moloney
+SE 2840
+Lab 7
+Dr. Hornick
+1/26/2018
+ */
+
+/*This styles the body and makes the background another color than white*/
+body{
+    margin:0;
+    background-color: lightcyan;
+}
+
+/*This style the navigation bar button*/
+#topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* This styles all of the buttons of the nav bar*/
+#topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 23%;
+    display: inline;
+}
+
+/*This changes a nav bar when the mouse hovers over it*/
+#topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*This centers the table headers to the center of the screen*/
+.centerScreen{
+    text-align: center;
+
+}
+
+/*This method styles the data table data on the right side to be center left*/
+
+.rightSide{
+    text-align: right;
+
+}
+
+/*This method styles the data table data on the left side to be center right*/
+.leftSide{
+    text-align: left;
+
+}
+
+/*This method styles the text of the error list to red*/
+ul{
+   color: red;
+}
+
+
+
